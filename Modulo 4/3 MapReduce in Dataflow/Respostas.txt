@@ -1,0 +1,30 @@
+Step 3
+
+What custom arguments are defined? 
+- output file prefix and input files directory
+
+What is the default output prefix? 
+- "/tmp/output"
+
+How is the variable output_prefix in main() set?
+- It is set by calling arguments.
+
+How are the pipeline arguments such as --runner set?
+- They are set during script invocation.
+
+
+Step 4
+
+What are the key steps in the pipeline?
+1. Read java files.
+2. Generate lines starting with 'import'.
+3. Generate usings.
+4. Group usings by key and counting.
+5. Get top five used packages.
+6. Write to output file.
+
+Which of these steps happen in parallel?
+- Steps 2, 3 and 4
+
+Which of these steps are aggregations?
+- Steps 4 and 5

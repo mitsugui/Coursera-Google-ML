@@ -1,0 +1,31 @@
+Step 1:
+What files are being read? 
+- All ".java" files. Grep.java, IsPopular.java, JavaProjectsThatNeedHelp.java e StreamDemoConsumer.java.
+
+What is the search term? 
+- "import"
+
+Where does the output go?
+- "/tmp/output" folder.
+
+There are three transforms in the pipeline:
+What does the transform do?
+- Read java files
+
+What does the second transform do?
+- Filter lines containing 'import' word.
+Where does its input come from?
+- From read java files.
+What does it do with this input?
+- Look for lines containing 'import' word and return them.
+What does it write to its output?
+- Lines containing 'import'.
+Where does the output go to?
+- To the last transform that writes it.
+
+What does the third transform do?
+- Write lines to output file.
+
+Step 2:
+Does the output seem logical? 
+- Yes. Just import statements.

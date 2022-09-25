@@ -1,0 +1,12 @@
+The program ingest.sh downloads a dataset of earthquakes in the past 7 days from the US Geological Survey. Where is this file downloaded? To disk or to Cloud Storage? 
+To disk
+
+
+BUCKET: qwiklabs-gcp-30f839ffec038876
+
+https://storage.googleapis.com/qwiklabs-gcp-30f839ffec038876/earthquakes/earthquakes.htm
+
+
+BigQuery
+departure_delay -35.0	-> arrival_delay -28.0
+

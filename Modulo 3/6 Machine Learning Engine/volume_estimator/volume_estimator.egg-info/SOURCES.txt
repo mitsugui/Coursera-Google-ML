@@ -1,0 +1,8 @@
+setup.py
+trainer/__init__.py
+trainer/model.py
+trainer/task.py
+volume_estimator.egg-info/PKG-INFO
+volume_estimator.egg-info/SOURCES.txt
+volume_estimator.egg-info/dependency_links.txt
+volume_estimator.egg-info/top_level.txt
